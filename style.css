@@ -1,0 +1,68 @@
+body {
+    background: silver;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', sans-serif;
+}
+article.card {
+    width: 300px;
+    height: 440px;
+    background: url("p1.jpeg");
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    color: #000;
+}
+.card h1 {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    margin-top: auto;
+    text-align: center;
+    padding: 0 25px;
+    color: rgb(82, 65, 106);
+}
+
+.card h2 {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    margin-top: auto;
+    text-align: center;
+    padding: 0 25px;
+    color: rgb(69, 47, 98);
+}
+
+.card p {
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-top: auto;
+    text-align: center;
+    padding: 0 25px;
+    color: rgb(102, 58, 99);
+}
+
+.card footer {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 2vw;
+}
